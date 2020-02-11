@@ -1,17 +1,18 @@
 # Docs
- * 다양한 이메일 계정들을 하나로 통합시키고, 첨부파일 까지 날짜별 사용자별 모아 볼수있는 어플리케이션.
- * 직관적인 시각화를 통해 누가 얼마나 보내는지 트렌드를 쉽게 파악 가능하다.
+ * 다양한 이메일 계정들을 하나로 통합시키고, 첨부파일 까지 날짜별 사용자별 모아 볼수있는 어플리케이션.(This is a SPA that combined numerous emails accounts into one account. Also, it provides to filter attachement files by date or by user.)
+ * 직관적인 시각화를 통해 누가 얼마나 보내는지 트렌드를 쉽게 파악 가능하다.(It helps to find out easily a trend because of its visualization.) 
+ 
 <img src='https://i.imgur.com/XBk52XG.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
-## 개발문서(화면정의서)
+## 개발문서(화면정의서) Docs
 * [Link](https://github.com/JaeLee18/roka/blob/master/WEB_DOCS_%EC%9D%B4%EC%9E%AC%EC%A4%91_%EA%B0%9C%EB%B0%9C%EB%AC%B8%EC%84%9C(%ED%99%94%EB%A9%B4%EC%A0%95%EC%9D%98%EC%84%9C).pdf)
 
-## 프로젝트 PPT
+## Proejct PPT
 * [Link](https://github.com/JaeLee18/roka/blob/master/WEB_DOCS_%EC%9D%B4%EC%9E%AC%EC%A4%91_PPT(pdf%EB%B2%84%EC%A0%84).pdf)
 
 ## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
-* node.js 설치
+* node.js 
 
 
 ## 설치 안내 (Installation Process)
@@ -26,23 +27,23 @@
 
 ## 파일 정보 및 목록 (File Manifest)
 1) Assets
-    * ttf files:무료폰트 파일
+    * ttf files:무료폰트 파일 (Free font file)
 2) Components
-    * Landing.vue: 첫 페이지 컴포넌트
-     * MailRender.vue: "받은편지함"에서 이메일 정보들을 처리
-     * NaviBar.vue: 로그인후 상단에 나오는 네비게이션 바 파일
-     * SortByDate.vue: "분석-날짜별 첨부파일 모아보기" 에 해당
-     * SortByName.vue: "분석-사용자별 첨부파일 트렌드 보기" 에 해당
+    * Landing.vue: 첫 페이지 컴포넌트 (First page Component)
+     * MailRender.vue: "받은편지함"에서 이메일 정보들을 처리 (Process all the email info, from "Inbox")
+     * NaviBar.vue: 로그인후 상단에 나오는 네비게이션 바 파일 (Navi-bar)
+     * SortByDate.vue: "분석-날짜별 첨부파일 모아보기" 에 해당 ("Analysis: by date")
+     * SortByName.vue: "분석-사용자별 첨부파일 트렌드 보기" 에 해당 ("Analysis: by user")
 3) router
-    * index.js: 라우터 기능
+    * index.js: 라우터 기능 (Router)
   
 4) views
-    * Analyze.vue: "분석"에 해당
-    * Home.vue: 첫페이지
-    * MailList.vue: "받은편지함"에 해당
-    * Statistics.vue: "분석"에 해당
+    * Analyze.vue: "분석"에 해당 ("Analysis")
+    * Home.vue: 첫페이지 (Landing Page)
+    * MailList.vue: "받은편지함"에 해당 (For "Inbox")
+    * Statistics.vue: "분석"에 해당 (For "Analysis")
 5) public
-    * png파일들: "분석-날짜별 첨부파일 모아보기"에 삽입하기위한 파일 로고들.
+    * png파일들: "분석-날짜별 첨부파일 모아보기"에 삽입하기위한 파일 로고들. (*.png for file logs)
 ## 저작권 및 사용권 정보 (Copyright / End User License)
  * [MIT](https://github.com/JaeLee18/roka/blob/master/LICENSE.md)
 ## 배포자 및 개발자의 연락처 정보 (Contact Information)
